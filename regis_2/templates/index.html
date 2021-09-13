@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'regis_2/css/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" croorigin>
+    <link href="https://fonts.googleapis.com/c2?family=Niramit&family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Main</title>
+</head>
+
+<body>
+  <header>
+      <a href="./dark.html"> dark mode test</a>
+
+      
+  </header>
+
+  <section>
+        {% for data in datas %}
+            
+            <ul>
+                <div class="container">
+                    
+                    <div class="subheader"></div>
+                    <div class="header">{{data.name}}</div>
+                    
+                    <div class="content">
+                       
+                        <w>
+                            <li>ID:   {{data.id}}</li>
+                            <li>Year: {{data.semeter}}/{{data.year}}</li>
+                        </w>
+                    
+                        
+                    </div>
+                    <button>register</button>
+                </div>
+            </ul>  
+           
+        {% endfor %}  
+
+  </section>
+
+
+  <section class="buttom">
+       <div class="inforbut">
+            <p>Register Website</p>
+            
+            <p1>© 2021 Created and Designed By Thanawin Srisuk</p1>
+             
+       </div>
+  </section>
+
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+
+::-webkit-scrollbar {
+	width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color:#7F66D1; 
+  border-radius: 30px; 
+}
+
+
+
+
+body{
+    font-family: 'Niramit', sans-serif;
+    margin: 0;
+   
+}
+body header{
+    width: 100%;
+    height: 63px;
+    background: #7F66D1;
+    position: fixed;
+}
+
+body header a{
+    text-decoration: none;
+    color: white;
+    padding-left: 100px;
+}
+body section {
+    padding-top: 200px;
+    padding-bottom: 240px;
+    padding-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1700px;
+ 
+}
+
+body section ul {
+    
+  margin-right: 40px;
+  
+}
+
+   
+
+body section ul div.container{
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(0deg, white 0%, white 70%, #7F66D1 50%, #7F66D1 100%);
+
+    list-style: none;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: all 0.8s;
+
+}
+   
+
+
+body section ul div.container:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.5);
+
+}  
+
+
+body section ul div.container div.header{
+    background: #7F66D1;   
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 12px;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+}
+
+
+body section ul div.container div.content{
+    
+    display: flex;
+    padding-top: 16px;
+    padding-left: 40px;
+    font-weight: bold;
+    
+    
+} 
+
+
+
+body section ul div.container w li{
+    list-style: none;
+    padding-left: 50px;
+   
+}    
+
+body section ul div.container button{
+    margin-left: 190px;
+    
+    border-radius: 18px;
+    padding: 0px 12px;
+   
+    border: none;
+    font-size: 16px;
+    font-family:'Niramit', sans-serif; ;
+    color: white;
+    background: #B07DEC;
+    
+    
+}
+    
+.buttom{
+    width: 100%;
+    height: 20px;
+    background: #7F66D1;
+    
+    padding-top: 0;
+    padding-bottom: 197px;
+    color: white;
+   
+
+}
+.inforbut p{
+   
+   font-weight: bold;
+   font-size: 30px;
+    
+}
+
+.inforbut p1{
+   
+    font-weight: bold;
+    font-size: 20px;
+     
+ }
+
+
+
+
+
